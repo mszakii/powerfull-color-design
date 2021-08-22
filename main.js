@@ -13,9 +13,9 @@ up.onclick = _ => this.location.href = "#header";
 
 
 // accipt name
-if (localStorage.name === "undefined") {
-  var userName = window.prompt("what's your first name?");
-}
+
+var userName = window.prompt("what's your first name?");
+
 
 nameEl.innerHTML = `Hello ${userName}.`;
 console.log(`Hello ${userName} 😁`);
